@@ -58,8 +58,51 @@ gsap.from('#page3 #circle',{
     scroller:"body",
     end:"top 30%",
     scrub:3,
+    start:"top 0",
+    end:"end -100%"
+    // markers:true,
+  }
+
+})
+gsap.from('#page4 #circle',{
+  scale:0,
+  delay:1,
+  duration:2,
+  rotate:720,
+  scrollTrigger: {
+    trigger:"#page4 #circle",
+    scroller:"body",
+    end:"top 30%",
+    scrub:3,
     // markers:true,
   }
 })
 
+
+gsap.to('#page5 h1',{
+  transform:"translateX(-130%)",
+  scrollTrigger: {
+    trigger:"#page5",
+    scroller:"body",
+    scrub:2,
+    start:"top 0",
+    end:"top -100%",
+    pin:true
+    // markers:true,
+  }
+})
+
+gsap.from('#page6 #circle',{
+  scale:0,
+  delay:1,
+  duration:2,
+  rotate:720,
+  scrollTrigger: {
+    trigger:"#page6 #circle",
+    scroller:"body",
+    end:"top 30%",
+    scrub:3,
+    // markers:true,
+  }
+})
 
