@@ -42,6 +42,8 @@ gsap.from('#page2 #circle',{
   scrollTrigger: {
     trigger:"#page2 #circle",
     scroller:"body",
+    end:"top 30%",
+    scrub:3,
     // markers:true,
   }
 })
@@ -54,6 +56,8 @@ gsap.from('#page3 #circle',{
   scrollTrigger: {
     trigger:"#page3 #circle",
     scroller:"body",
+    end:"top 30%",
+    scrub:3,
     // markers:true,
   }
 })
