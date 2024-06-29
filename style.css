@@ -24,3 +24,35 @@ html,body{
   height: 200px;
   background-color:yellowgreen;
 }
+
+#page1{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(146, 250, 114);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#page2{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(114, 234, 250);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#page3{
+  width: 100%;
+  height: 100%;
+  background-color: salmon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(yellow,orangered)
+}
